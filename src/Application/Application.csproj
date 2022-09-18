@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+      <TargetFramework>net6.0</TargetFramework>
+      <Nullable>enable</Nullable>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <UserSecretsId>d938781f-4568-4b9a-be44-5809d922a3ec</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Bogus" Version="34.0.2" />
+      <PackageReference Include="EFCore.NamingConventions" Version="6.0.0" />
+      <PackageReference Include="FluentValidation" Version="11.2.1" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
+      <PackageReference Include="HotChocolate.AspNetCore" Version="13.0.0-preview.48" />
+      <PackageReference Include="HotChocolate.Data" Version="13.0.0-preview.48" />
+      <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.0.0-preview.48" />
+      <PackageReference Include="HotChocolate.Types.Analyzers" Version="13.0.0-preview.48">
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="HotChocolate.Types.Scalars" Version="13.0.0-preview.48" />
+      <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.8">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.8" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+    </ItemGroup>
+
+</Project>
